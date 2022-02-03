@@ -71,13 +71,13 @@ public class MainActivity extends AppCompatActivity {
                         } else {
 
                             if (mEmail.getText().toString().isEmpty()) {
-                                mEmail.setError("Please fill Email");
+                                mEmail.setError("Email Cannot be Empty");
                                 mEmail.requestFocus();
                                 v.vibrate(100);
                                 return;
                             }
                             if (mPassword.getText().toString().isEmpty()) {
-                                mPassword.setError("Please fill Password");
+                                mPassword.setError("Password Cannot be Empty");
                                 mPassword.requestFocus();
                                 v.vibrate(100);
                                 return;
