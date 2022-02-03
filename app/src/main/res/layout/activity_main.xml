@@ -8,10 +8,10 @@
 
 
     <Button
-        android:text="show dialog"
+        android:id="@+id/btnShowDialog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/btnShowDialog" />
+        android:layout_centerVertical="true"
+        android:text="show dialog" />
 </RelativeLayout>
